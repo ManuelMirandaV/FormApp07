@@ -26,6 +26,10 @@ export class EmailValidator implements AsyncValidator {
 
   }
 
+  isFieldOneEqualFieldTwo(field1: string, field2: string){
+
+  }
+
   // validate(control: AbstractControl): Observable<ValidationErrors | null> {
 
   //   const email = control.value;
